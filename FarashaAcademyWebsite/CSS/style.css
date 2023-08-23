@@ -1,0 +1,203 @@
+/* Reset some default styling */
+body, h1, h2, h3, p {
+   margin: 1;
+   padding: 1;
+}
+
+/* Apply a background color to the body */
+body {
+   background-color: #f4f4f4; /* Light gray */
+   font-family: Arial, sans-serif;
+}
+
+/* Style the navigation menu */
+nav {
+   background-color: #006400; /* Medina green */
+   color: white;
+   text-align: center;
+   padding: 10px 0;
+}
+
+nav img {
+   width: 100px; 
+   margin-right: 10px;
+   vertical-align: middle; 
+}
+
+nav a {
+   color: white;
+   text-decoration: none;
+   margin: 0 15px;
+}
+
+/* Style the header section */
+header {
+   text-align: center;
+   padding: 50px 0;
+   background-color: white;
+}
+
+/* .logo img {
+   width: 100px;
+} */
+
+header h1 {
+   color: #006400; /* Medina green */
+}
+
+/* Style the main content sections */
+section {
+   padding: 30px;
+}
+
+section h2 {
+   color: #006400; /* Medina green */
+}
+
+/* Style the offerings */
+.offering {
+   margin-bottom: 30px;
+}
+
+.offering h3 {
+   color: #006400; /* Medina green */
+}
+
+/* Style the footer */
+footer {
+   text-align: center;
+   padding: 10px 0;
+   background-color: #006400; /* Medina green */
+   color: white;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+   nav {
+      flex-direction: column;
+   }
+
+   nav a {
+      margin: 10px 0;
+   }
+}
+
+/* Reset some default styling */
+body, h1, h2, h3, p, ul, li {
+   margin: 0;
+   padding: 0;
+}
+
+/* Apply a background color to the body */
+body {
+   background-color: #f4f4f4; /* Light gray */
+   font-family: Arial, sans-serif;
+}
+
+/* Style the main content sections */
+section {
+   padding: 30px;
+   background-color: white;
+   margin: 20px 0;
+   border-radius: 10px;
+   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+   color: #006400; /* Medina green */
+   margin-bottom: 15px;
+}
+
+.section p {
+   margin-bottom: 15px;
+}
+
+.program {
+   margin-bottom: 30px;
+   padding: 20px;
+   border: 1px solid #ddd;
+   border-radius: 5px;
+   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.program h3 {
+   color: #006400; /* Medina green */
+   margin-bottom: 10px;
+}
+
+/* New CSS code for the Programs section */
+.program ul {
+   margin-top: 10px;
+   list-style-type: disc;
+   margin-left: 20px; /* Indentation for <li> elements */
+}
+
+.program li {
+   margin-bottom: 5px;
+}
+
+/* ... (other existing CSS code) ... */
+
+/* Style the interest form */
+.interest-form {
+   padding: 30px;
+   background-color: white;
+   margin: 20px 0;
+   border-radius: 10px;
+   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.interest-form h2 {
+   color: #006400; /* Medina green */
+   margin-bottom: 15px;
+}
+
+.interest-form p {
+   margin-bottom: 15px;
+}
+
+.interest-form form {
+   display: grid;
+   grid-template-columns: 1fr 2fr;
+   grid-gap: 10px;
+}
+
+.interest-form label {
+   font-weight: bold;
+}
+/* .interest-form input {
+   padding: 8px;
+} */
+.interest-form input,
+.interest-form select {
+   width: 100%;
+   /* padding: 8px; */
+   border: 1px solid #ddd;
+   border-radius: 5px;
+}
+
+.buttoncontainer {
+   display: flex;
+   justify-content: center;
+   grid-column: span 2;
+   padding-top: 2em;
+   /* width: 100%; */
+   /* background-color: red; */
+}
+
+.interest-form button {
+   background-color: #006400; /* Medina green */
+   color: white;
+   padding: 10px 20px;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   font-weight: bold;
+   width: 10em;
+}
+
+.interest-form button:hover {
+   background-color: #004000; /* Darker shade of Medina green */
+}
+
+/* ... (other existing CSS code) ... */

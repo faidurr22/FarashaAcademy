@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Farasha Academy</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav>
+      <!-- <a href="./index.html">
+        <img src="farashacademy_logo.png" alt="Farasha Academy Logo">
+     </a> -->
+      <a href="./index.html">Home</a>
+      <a href="./programs.html">Programs</a>
+      <a href="./about.html">About Us</a>
+      <a href="./blog.html">Blog</a>
+    </nav>
+    <header>
+      <div class="logo">
+        <img src="farashacademy_logo.png" alt="Farasha Academy Logo" />
+      </div>
+      <!-- <h1>Welcome to Farasha Academy</h1> -->
+      <p>Your Gateway to Arabic, Qur'an, and the Core Knowledge Curriculum</p>
+    </header>
+    <section>
+      <h2>Our Academy</h2>
+      <br />
+      <p>
+        At Farasha Academy, we are dedicated to fostering a rich educational
+        experience that blends tradition with innovation. Our academy focuses on
+        teaching Arabic through the acclaimed book "Arabic Between your Hands"
+        and the profound teachings of the Qur'an.
+      </p>
+      <br />
+      <p>
+        In addition to our language offerings, we proudly embrace the Core
+        Knowledge Curriculum, providing students with a well-rounded education
+        that spans various subjects while nurturing their Arabic and Latin
+        language skills.
+      </p>
+    </section>
+    <section>
+      <h2>Our Offerings</h2>
+      <br />
+      <div class="offerings">
+        <div class="offering">
+          <h3>Co-op Style Homeschooling</h3>
+          <br />
+          <p>
+            Join our co-op style homeschool program, where students embark on an
+            enriching journey through the Core Knowledge Curriculum. Our unique
+            approach integrates Arabic and Latin as language enhancements,
+            creating a holistic educational experience.
+          </p>
+        </div>
+        <div class="offering">
+          <h3>After School Program</h3>
+          <br />
+          <p>
+            Our after school program specializes in teaching "Arabic Between
+            your Hands" and delving into the profound wisdom of the Qur'an.
+            Enroll your child in this program to provide them with a strong
+            foundation in Arabic language and Islamic studies.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="interest-form">
+      <h2>Express Your Interest</h2>
+      <p>Fill out the form below to express your interest in our programs.</p>
+      <form action="submit_form.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <!-- <label for="email">Phone:</label>
+        <input type="email" id="email" name="email" required /> -->
+
+        <label for="program">Program of Interest:</label>
+        <select id="program" name="program">
+          <option value="co-op">Homeschool Co-op</option>
+          <option value="quran">After-School Quran Learning</option>
+          <option value="co-op">Both Programs</option>
+        </select>
+        <div class="buttoncontainer">
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2023 Farasha Academy. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
